@@ -15,7 +15,8 @@ class secondNameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.secondLabel.text = self.secondText
+        self.secondLabel.text = ("こんにちは、\(self.secondText)さん")
+        
     }
     
 
